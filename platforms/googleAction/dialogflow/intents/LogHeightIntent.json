@@ -1,0 +1,23 @@
+{
+	"name": "LogHeightIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "feet",
+					"value": "$feet",
+					"dataType": "@sys.number"
+				},
+				{
+					"isList": false,
+					"name": "inches",
+					"value": "$inches",
+					"dataType": "@sys.number"
+				}
+			]
+		}
+	]
+}

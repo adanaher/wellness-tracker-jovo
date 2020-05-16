@@ -1,0 +1,78 @@
+[
+	{
+		"data": [
+			{
+				"text": "weight",
+				"userDefined": true,
+				"alias": "weight",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " pounds",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "please log my weight at ",
+				"userDefined": false
+			},
+			{
+				"text": "weight",
+				"userDefined": true,
+				"alias": "weight",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " pounds",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "i weigh ",
+				"userDefined": false
+			},
+			{
+				"text": "weight",
+				"userDefined": true,
+				"alias": "weight",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " pounds",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "log my weight ",
+				"userDefined": false
+			},
+			{
+				"text": "weight",
+				"userDefined": true,
+				"alias": "weight",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " pounds",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

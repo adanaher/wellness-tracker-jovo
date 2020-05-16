@@ -1,0 +1,118 @@
+[
+	{
+		"data": [
+			{
+				"text": "log ",
+				"userDefined": false
+			},
+			{
+				"text": "duration",
+				"userDefined": true,
+				"alias": "duration",
+				"meta": "@sys.duration"
+			},
+			{
+				"text": " of ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "i did ",
+				"userDefined": false
+			},
+			{
+				"text": "duration",
+				"userDefined": true,
+				"alias": "duration",
+				"meta": "@sys.duration"
+			},
+			{
+				"text": " of ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "duration",
+				"userDefined": true,
+				"alias": "duration",
+				"meta": "@sys.duration"
+			},
+			{
+				"text": " of ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "i ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " for ",
+				"userDefined": false
+			},
+			{
+				"text": "duration",
+				"userDefined": true,
+				"alias": "duration",
+				"meta": "@sys.duration"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "log a ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

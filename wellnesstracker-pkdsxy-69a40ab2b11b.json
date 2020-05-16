@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wellnesstracker-pkdsxy",
+  "private_key_id": "69a40ab2b11b785578e08a6043d97c736d8d7349",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDNNZeC0RxmLfyS\nw8K63CPy96Qjz4VrYz27hkFYJn3ogmwZR1eyeNN0J8mSpoWcFRWMkZ84zfrhtc3p\ncuEcvxKj6Op9CAfH7H2LfJFlOmHCA87tFp5ZTEZiQW5R8KJvE74EVmd8b7uFxIiC\nQPup0iTcVhlqKe504kMOZPdCO5vh3lkpExtGYUgRm1uwFPhgUJ5hHZMnpwhOvHix\nF6D+xnZ6Z5YQ5wTEGufM6HszjNo1VG+pX1GigOepJUklOeTDSLXzMCkq/7q1bm6w\noPwEO44DE4jBwh/1fSmSb/Y5ZuJ6YvRqwddGf1Nn8QEdH5y4UHJM+notR19DzydR\nIsZDJ9XPAgMBAAECggEAG7MajYJJMWhkXzHk14ZJpU1U2a9Jv3zOOMGJkSrjn1P4\n4CdSKM7IdDW+rs34MQu430L02XJsZV/ouJSqMFAruvZWA088haRgL0jpnglrErOi\n5eaXX08Sx8aJ7AOYWXgHvobPQevEcJezztPoueaaKn0bbHTWhu6CcK9OSkweNuGn\ndJNGBe/BpRxbvHFpP8jUq7H75x30zfgif4lG3NcWDGjrwIpdjjENNwpnaGKCzuhp\nrpMVggwtkcI5P3IeobxgIVLoxzDlG1kGqkzMdeVCahCZT0x2h/t+mq0Y8JxkGuo7\nooSn9EqgdNX9y2J+NSH8lP/Wvu+qqxBzV0mvNVDVqQKBgQD6yRR3ZRIP0jRmVWno\nCD7uBswZWnmJFYKSOxa88ISgr48/ZB0hCFnyv4c1plABb96ZoOfnK+lcqslNmYX1\nILvEaLhm7coCTrwUcsAD+okKEvW6D+3txtc1rHkMpMcPc4I9QK/ayDF2fYiy+x/Y\nFnITAnWLX8U9f4xn4cq7YmBUEwKBgQDReemEWa5N+YZwNrP3bpJCYXngQCoOOH6s\nct2GqumiOBu2Y+sAjLr2/4UQucbFnI3Y/qw3eEAj7QznLEM33C+wKHsS9xAIoY3I\nkLdmmgMmA2sGHWtY0lLrtCkGms697nQaVZNlO64yb1kJTlqDChmC9ov2bgS7vLRP\naWko5Z7W1QKBgQC1Xd6zSiD52CeVKohhCjWYpsnMPCZRAYFgh+M12SvRmaWbTqfS\nT9vdNq5uGk0Z/PGbYUbVZGhsYAcdW74JPRcOQD28EpRZft9+Wk6LkhCxfGzBluuX\nXoodgxI4FqLvhbXW3oVPUCCVdMv7xKmO+QyeutSPaz+V7jx4lE6tncPUiQKBgACm\n7H8o+E3t1OlMgkrm4TWrsAFusbLRojNPODlPFuMWYZ+zt+uMhJh4OyXOLjw3PInM\nYSTbDvgNqNifXqYx3UQjHB72/enI9vQE301GdXQM1qxyMv9XyEJLkUUf/jzBHUNn\nuMm74dLuXcyVndqCkYnC0rS1qvYapEULAvTJojDxAoGBAL9eDC02iJg6skOAdqfA\ncQQ2NmZo/rBjIFj1VGZXcmstPfo8A5f6S7LorA0hSu6rhCT3CjdTG4AA9gwvKdT+\n7z9F9jjSBT6ohCPNcleVC97Hk5Z/B5qxwrf/KOioUZyoBky6XCH3hr4WbSnumFz8\nu72Ly12TVVGCq4ZTX7/BwiDM\n-----END PRIVATE KEY-----\n",
+  "client_email": "wellnesstrackerdialogflowapi@wellnesstracker-pkdsxy.iam.gserviceaccount.com",
+  "client_id": "109093640911949133574",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wellnesstrackerdialogflowapi%40wellnesstracker-pkdsxy.iam.gserviceaccount.com"
+}

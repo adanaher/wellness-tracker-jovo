@@ -1,0 +1,23 @@
+{
+	"name": "LogExerciseIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "duration",
+					"value": "$duration",
+					"dataType": "@sys.duration"
+				},
+				{
+					"isList": false,
+					"name": "exerciseType",
+					"value": "$exerciseType",
+					"dataType": "@sys.any"
+				}
+			]
+		}
+	]
+}

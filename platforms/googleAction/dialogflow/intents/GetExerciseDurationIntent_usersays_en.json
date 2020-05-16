@@ -1,0 +1,154 @@
+[
+	{
+		"data": [
+			{
+				"text": "how long have i worked out ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how many minutes did i work out ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how much did i workout ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how much time did i ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how long did i ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how much i ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how much ",
+				"userDefined": false
+			},
+			{
+				"text": "exerciseType",
+				"userDefined": true,
+				"alias": "exerciseType",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " i did ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

@@ -1,0 +1,228 @@
+{
+	"invocation": "wellness tracker",
+	"intents": [
+		{
+			"name": "WelcomeIntent",
+			"phrases": [
+				"hello"
+			]
+		},
+		{
+			"name": "GetLastWeightIntent",
+			"phrases": [
+				"how much do i weigh",
+				"how much did i weigh",
+				"what was my last weight",
+				"what was my last logged weight",
+				"what is my weight",
+				"weight",
+				"what's my current weight"
+			]
+		},
+		{
+			"name": "LogWeightIntent",
+			"phrases": [
+				"{weight} pounds",
+				"please log my weight at {weight} pounds",
+				"i weigh {weight} pounds",
+				"log my weight {weight} pounds"
+			],
+			"inputs": [
+				{
+					"name": "weight",
+					"type": {
+						"alexa": "AMAZON.NUMBER",
+						"dialogflow": "@sys.number"
+					}
+				}
+			]
+		},
+		{
+			"name": "LogHeightIntent",
+			"phrases": [
+				"{feet} feet {inches} inches",
+				"{feet} foot {inches}",
+				"{feet} foot {inches} tall",
+				"{feet} feet",
+				"{feet} feet tall",
+				"i am {feet} feet {inches} inches tall",
+				"i am {feet} feet tall",
+				"i'm {feet} feet {inches} inches tall",
+				"i'm {feet} feet tall",
+				"set my height",
+				"set my height at {feet} foot {inches} inches",
+				"set my height at {inches} inches"
+			],
+			"inputs": [
+				{
+					"name": "feet",
+					"type": {
+						"alexa": "AMAZON.NUMBER",
+						"dialogflow": "@sys.number"
+					}
+				},
+				{
+					"name": "inches",
+					"type": {
+						"alexa": "AMAZON.NUMBER",
+						"dialogflow": "@sys.number"
+					}
+				}
+			]
+		},
+		{
+			"name": "GetHeightIntent",
+			"phrases": [
+				"how tall am i",
+				"what's my height",
+				"what height did i log",
+				"what height did i store",
+				"what is my height",
+				"height",
+				"what's my current height",
+				"what is my current height"
+			]
+		},
+		{
+			"name": "LogExerciseIntent",
+			"phrases": [
+				"log {duration} of {exerciseType}",
+				"i did {duration} of {exerciseType}",
+				"{duration} of {exerciseType}",
+				"i {exerciseType} for {duration}",
+				"log a {exerciseType}"
+			],
+			"inputs": [
+				{
+					"name": "duration",
+					"type": {
+						"alexa": "AMAZON.DURATION",
+						"dialogflow": "@sys.duration"
+					}
+				},
+				{
+					"name": "exerciseType",
+					"type": {
+						"alexa": "AMAZON.Sport",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+		{
+			"name": "GetLastExerciseIntent",
+			"phrases": [
+				"what was my last exercise",
+				"tell me about my latest exercise",
+				"tell me about my latest workout",
+				"what was the last exercise i logged",
+				"what was the last workout i logged",
+				"tell me about my last workout",
+				"what was the latest workout i logged",
+				"what was my last exercise",
+				"what was my last workout"
+			]
+		},
+		{
+			"name": "GetExerciseDurationIntent",
+			"phrases": [
+				"how long have i worked out {timeframe}",
+				"how many minutes did i work out {timeframe}",
+				"how much did i workout {timeframe}",
+				"how much time did i {exerciseType} {timeframe}",
+				"how long did i {exerciseType} {timeframe}",
+				"how much i {exerciseType} {timeframe}",
+				"how much {exerciseType} i did {timeframe}"
+			],
+			"inputs": [
+				{
+					"name": "timeframe",
+					"type": {
+						"alexa": "AMAZON.DATE",
+						"dialogflow": "@sys.date"
+					}
+				},
+				{
+					"name": "exerciseType",
+					"type": {
+						"alexa": "AMAZON.Sport",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+		{
+			"name": "GetExerciseCountIntent",
+			"phrases": [
+				"how many times did i work out {timeframe}",
+				"i worked out how many times {timeframe}",
+				"how many workouts did i log {timeframe}",
+				"what was my activity {timeframe}",
+				"did i crush it {timeframe}",
+				"how much did i workout {timeframe}"
+			],
+			"inputs": [
+				{
+					"name": "timeframe",
+					"type": {
+						"alexa": "AMAZON.DATE",
+						"dialogflow": "@sys.date"
+					}
+				},
+				{
+					"name": "exerciseType",
+					"type": {
+						"alexa": "AMAZON.Sport",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		}
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": [
+							"cancel",
+							"nevermind"
+						]
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": [
+							"go home",
+							"nothing"
+						]
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}

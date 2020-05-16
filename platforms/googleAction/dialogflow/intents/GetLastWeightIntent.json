@@ -1,0 +1,5 @@
+{
+	"name": "GetLastWeightIntent",
+	"auto": true,
+	"webhookUsed": true
+}

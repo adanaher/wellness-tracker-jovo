@@ -1,0 +1,98 @@
+[
+	{
+		"data": [
+			{
+				"text": "how many times did i work out ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "i worked out how many times ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how many workouts did i log ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "what was my activity ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "did i crush it ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "how much did i workout ",
+				"userDefined": false
+			},
+			{
+				"text": "timeframe",
+				"userDefined": true,
+				"alias": "timeframe",
+				"meta": "@sys.date"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

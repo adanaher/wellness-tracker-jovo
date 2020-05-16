@@ -1,0 +1,5 @@
+{
+	"name": "GetLastExerciseIntent",
+	"auto": true,
+	"webhookUsed": true
+}

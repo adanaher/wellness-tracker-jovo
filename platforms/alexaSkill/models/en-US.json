@@ -1,0 +1,172 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "wellness tracker",
+			"types": [],
+			"intents": [
+				{
+					"name": "WelcomeIntent",
+					"samples": [
+						"hello"
+					]
+				},
+				{
+					"name": "GetLastWeightIntent",
+					"samples": [
+						"how much do i weigh",
+						"how much did i weigh",
+						"what was my last weight",
+						"what was my last logged weight",
+						"what is my weight",
+						"weight",
+						"what's my current weight"
+					]
+				},
+				{
+					"name": "LogWeightIntent",
+					"samples": [
+						"{weight} pounds",
+						"please log my weight at {weight} pounds",
+						"i weigh {weight} pounds",
+						"log my weight {weight} pounds"
+					],
+					"slots": [
+						{
+							"name": "weight",
+							"type": "AMAZON.NUMBER"
+						}
+					]
+				},
+				{
+					"name": "LogHeightIntent",
+					"samples": [
+						"{feet} feet {inches} inches",
+						"{feet} foot {inches}",
+						"{feet} foot {inches} tall",
+						"{feet} feet",
+						"{feet} feet tall",
+						"i am {feet} feet {inches} inches tall",
+						"i am {feet} feet tall",
+						"i'm {feet} feet {inches} inches tall",
+						"i'm {feet} feet tall",
+						"set my height",
+						"set my height at {feet} foot {inches} inches",
+						"set my height at {inches} inches"
+					],
+					"slots": [
+						{
+							"name": "feet",
+							"type": "AMAZON.NUMBER"
+						},
+						{
+							"name": "inches",
+							"type": "AMAZON.NUMBER"
+						}
+					]
+				},
+				{
+					"name": "GetHeightIntent",
+					"samples": [
+						"how tall am i",
+						"what's my height",
+						"what height did i log",
+						"what height did i store",
+						"what is my height",
+						"height",
+						"what's my current height",
+						"what is my current height"
+					]
+				},
+				{
+					"name": "LogExerciseIntent",
+					"samples": [
+						"log {duration} of {exerciseType}",
+						"i did {duration} of {exerciseType}",
+						"{duration} of {exerciseType}",
+						"i {exerciseType} for {duration}",
+						"log a {exerciseType}"
+					],
+					"slots": [
+						{
+							"name": "duration",
+							"type": "AMAZON.DURATION"
+						},
+						{
+							"name": "exerciseType",
+							"type": "AMAZON.Sport"
+						}
+					]
+				},
+				{
+					"name": "GetLastExerciseIntent",
+					"samples": [
+						"what was my last exercise",
+						"tell me about my latest exercise",
+						"tell me about my latest workout",
+						"what was the last exercise i logged",
+						"what was the last workout i logged",
+						"tell me about my last workout",
+						"what was the latest workout i logged",
+						"what was my last exercise",
+						"what was my last workout"
+					]
+				},
+				{
+					"name": "GetExerciseDurationIntent",
+					"samples": [
+						"how long have i worked out {timeframe}",
+						"how many minutes did i work out {timeframe}",
+						"how much did i workout {timeframe}",
+						"how much time did i {exerciseType} {timeframe}",
+						"how long did i {exerciseType} {timeframe}",
+						"how much i {exerciseType} {timeframe}",
+						"how much {exerciseType} i did {timeframe}"
+					],
+					"slots": [
+						{
+							"name": "timeframe",
+							"type": "AMAZON.DATE"
+						},
+						{
+							"name": "exerciseType",
+							"type": "AMAZON.Sport"
+						}
+					]
+				},
+				{
+					"name": "GetExerciseCountIntent",
+					"samples": [
+						"how many times did i work out {timeframe}",
+						"i worked out how many times {timeframe}",
+						"how many workouts did i log {timeframe}",
+						"what was my activity {timeframe}",
+						"did i crush it {timeframe}",
+						"how much did i workout {timeframe}"
+					],
+					"slots": [
+						{
+							"name": "timeframe",
+							"type": "AMAZON.DATE"
+						},
+						{
+							"name": "exerciseType",
+							"type": "AMAZON.Sport"
+						}
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

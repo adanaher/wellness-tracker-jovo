@@ -1,0 +1,17 @@
+{
+	"name": "LogWeightIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "weight",
+					"value": "$weight",
+					"dataType": "@sys.number"
+				}
+			]
+		}
+	]
+}

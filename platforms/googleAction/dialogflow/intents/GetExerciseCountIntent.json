@@ -1,0 +1,23 @@
+{
+	"name": "GetExerciseCountIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "timeframe",
+					"value": "$timeframe",
+					"dataType": "@sys.date"
+				},
+				{
+					"isList": false,
+					"name": "exerciseType",
+					"value": "$exerciseType",
+					"dataType": "@sys.any"
+				}
+			]
+		}
+	]
+}
