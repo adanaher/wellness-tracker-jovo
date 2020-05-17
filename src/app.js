@@ -10,6 +10,7 @@ const { GoogleAssistant } = require('jovo-platform-googleassistant');
 const { JovoDebugger } = require('jovo-plugin-debugger');
 const { FileDb } = require('jovo-db-filedb');
 const { AirtableCMS } = require('jovo-cms-airtable');
+const { SpeechMarkdown } = require('jovo-plugin-speechmarkdown');
 // const { DynamoDb } = require('jovo-db-dynamodb');
 
 const Moment = require('moment');
@@ -25,7 +26,8 @@ app.use(
     new GoogleAssistant(),
     new JovoDebugger(),
     new FileDb(),
-    new AirtableCMS()
+    new AirtableCMS(),
+    new SpeechMarkdown()
     // new DynamoDb()
 );
 
