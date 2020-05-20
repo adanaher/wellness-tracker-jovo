@@ -50,6 +50,7 @@ app.setHandler({
     },
 
     WelcomeIntent() {
+        var testMessage = 'hello world';
         this.$speech.addText(this.$cms.t('welcome.newuser.speech'), this.$user.isNewUser())
             .addText(this.$cms.t('welcome.returninguser.speech'), !this.$user.isNewUser());
         

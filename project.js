@@ -10,7 +10,7 @@ module.exports = {
       nlu: 'dialogflow',
       dialogflow: {
         projectId: 'wellnesstracker-pkdsxy',
-        keyFile: './wellnesstracker-pkdsxy-69a40ab2b11b.json'
+        keyFile: './wellnesstracker-pkdsxy-00218f699429.json'
       }
     },
     endpoint: '${JOVO_WEBHOOK_URL}',
